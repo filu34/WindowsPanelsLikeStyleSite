@@ -1,0 +1,12 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+RewrtieEngine on
+RewrtieRule zatrudinj-programistewebowego index.html
+RewrtieRule	kim-jestem kimjestem.html
+RewrtieRule	oferta-tworzenie-stron-www oferta.html
+RewrtieRule cv-programista-php-javascript cv.html
+RewrtieRule kontakt-proggramista-php kontakt.html
